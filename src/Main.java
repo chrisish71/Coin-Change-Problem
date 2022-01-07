@@ -14,6 +14,6 @@ public class Main {
 //        });
 
         Set<Integer> coinList = new HashSet<>(Arrays.asList(2, 5, 10));
-        System.out.println(ChangeHelper.findChanges(11, coinList));
+        System.out.println(ChangeHelper.findChanges(25, coinList));
     }
 }
